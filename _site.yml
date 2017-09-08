@@ -1,0 +1,242 @@
+name: "www"
+exclude: ["makefile", "gfx", "lectures/figure"]
+navbar:
+  title: "SDS/MTH 220 - Fall 2017"
+  left:
+    - text: "Syllabus"
+      icon: fa-home
+      href: index.html
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Resources"
+      menu: 
+        - text: "Helpful Links"
+          href: resources.html
+        - text: "Troubleshooting R Markdown"
+          href: https://smithcollege-sds.github.io/sds-public/rmarkdown_problems.html
+        - text: "Handouts"
+        - text: "R quiz study guide"
+          href: handouts/R-guide.pdf
+        - text: "Syntax comparison cheatsheet"
+          href: handouts/Syntax-cheatsheet.pdf
+        - text: "Data wrangling cheatsheet"
+          href: https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/data-transformation-cheatsheet.pdf
+        - text: "RMarkdown cheatsheet"
+          href: https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf
+        - text: "ggplot2 cheatsheet"
+          href: https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf
+    - text: "Lectures"
+      menu:
+        - text: "Notes"
+        - text: "01 - Yawning"
+          href: lectures/01_yawning.pdf
+  #      - text: "02 - Data & Sampling"
+   #       href: lectures/02_data-sampling.pdf
+    #    - text: "03 - Experimental Design"
+     #     href: lectures/03_experimental-design.pdf
+  #      - text: "04 - Center, Shape, and Spread"
+   #       href: lectures/04_center-shape-spread.pdf
+    #    - text: "05 - Bivariate Relationships"
+     #     href: lectures/05_bivariate.pdf
+  #      - text: "06 - Linear Regression"
+   #       href: lectures/06_linear_regression.pdf
+    #    - text: "07 - Linear Fit"
+     #     href: lectures/07_linear_fit.pdf
+  #      - text: "08 - Outliers, Leverage, and Influence"
+   #       href: lectures/08_outliers_leverage.pdf
+    #    - text: "09 - Multiple Regression"
+     #     href: lectures/09_mlr.pdf
+  #      - text: "10 - Randomization Test"
+   #       href: lectures/10_randomization.pdf
+    #    - text: "11 - Hypothesis Testing"
+     #     href: lectures/11_hypothesis-testing.pdf
+  #      - text: "12 - Simulation"
+   #       href: lectures/12_simulation.pdf
+    #    - text: "13 - Normal Distribution"
+     #     href: lectures/13_normal.pdf
+  #      - text: "14 - Confidence Intervals"
+   #       href: lectures/14_confidence_intervals.pdf
+    #    - text: "15 - More on Confidence Intervals"
+     #     href: lectures/15_more-on-ci.pdf
+  #      - text: "16 - Probability"
+   #       href: lectures/16_probability.pdf
+    #    - text: "17 - Conditional Probability"
+     #     href: lectures/17_conditional_probability.pdf
+  #      - text: "18 - Random Variables"
+   #       href: lectures/18_random_variables.pdf
+    #    - text: "19 - Inference for a Single Proportion"
+     #     href: lectures/19_inference_single_proportion.pdf
+  #      - text: "20 - Difference of two Proportions"
+   #       href: lectures/20_difference_of_proportions.pdf
+    #    - text: "21 - Goodness of Fit"
+     #     href: lectures/21_goodness_of_fit.pdf
+  #      - text: "22 - Independence"
+   #       href: lectures/22_independence.pdf
+    #    - text: "23 - Inference for a Mean"
+     #     href: lectures/23_inference_for_mean.pdf
+  #      - text: "24 - Difference of Two Means"
+   #       href: lectures/24_difference_of_two_means.pdf
+  #      - text: "25 - ANOVA"
+   #       href: lectures/25_anova.pdf
+    #    - text: "26 - The Bootstrap"
+     #     href: lectures/26_bootstrap.pdf
+  #      - text: "25 - Inference for Regression"
+   #       href: lectures/27_inference_for_regression.pdf
+        #- text: "28 - Bootstrap for Regression"
+#          href: lectures/28_bootstrap_for_regression.pdf
+  #      - text: "26 - Regression Diagnostics"
+   #       href: lectures/29_mlr_diagnostics.pdf
+    #    - text: "Inference overview"
+     #     href: lectures/InferenceCheatsheet.pdf
+  #      - text: "Exam 3 review"
+   #       href: lectures/review-for-exam3.pdf
+    - text: "Sources"
+      menu:
+        - text: "01 - Yawning"
+          href: lectures/01_yawning.Rnw
+  #      - text: "02 - Data & Sampling"
+   #       href: lectures/02_data-sampling.Rnw
+    #    - text: "03 - Experimental Design"
+     #     href: lectures/03_experimental-design.Rnw
+  #      - text: "04 - Center, Shape, and Spread"
+   #       href: lectures/04_center-shape-spread.Rnw
+    #    - text: "05 - Bivariate Relationships"
+     #     href: lectures/05_bivariate.Rnw
+  #      - text: "06 - Linear Regression"
+   #       href: lectures/06_linear_regression.Rnw
+    #    - text: "07 - Linear Fit"
+     #     href: lectures/07_linear_fit.Rnw
+  #      - text: "08 - Outliers, Leverage, and Influence"
+   #       href: lectures/08_outliers_leverage.Rnw
+    #    - text: "09 - Multiple Regression"
+     #     href: lectures/09_mlr.Rnw
+  #      - text: "10 - Randomization Test"
+   #       href: lectures/10_randomization.Rnw
+    #    - text: "11 - Hypothesis Testing"
+     #     href: lectures/11_hypothesis-testing.Rnw
+  #      - text: "12 - Simulation"
+   #       href: lectures/12_simulation.Rnw
+    #    - text: "13 - Normal Distribution"
+     #     href: lectures/13_normal.Rnw
+  #      - text: "14 - Confidence Intervals"
+   #       href: lectures/14_confidence_intervals.Rnw
+    #    - text: "15 - More on Confidence Intervals"
+     #     href: lectures/15_more-on-ci.Rnw
+  #      - text: "16 - Probability"
+   #       href: lectures/16_probability.Rnw
+    #    - text: "17 - Conditional Probability"
+     #     href: lectures/17_conditional_probability.Rnw
+  #      - text: "18 - Random Variables"
+   #       href: lectures/18_random_variables.Rnw
+    #    - text: "19 - Inference for a Single Proportion"
+     #     href: lectures/19_inference_single_proportion.Rnw
+  #      - text: "20 - Difference of two Proportions"
+   #       href: lectures/20_difference_of_proportions.Rnw
+    #    - text: "21 - Goodness of Fit"
+     #     href: lectures/21_goodness_of_fit.Rnw
+  #      - text: "22 - Independence"
+   #       href: lectures/22_independence.Rnw
+    #    - text: "23 - Inference for a Mean"
+     #     href: lectures/23_inference_for_mean.Rnw
+  #      - text: "24 - Difference of Two Means"
+   #       href: lectures/24_difference_of_two_means.Rnw
+      #  - text: "25 - ANOVA"
+       #   href: lectures/25_anova.Rnw
+#        - text: "26 - The Bootstrap"
+ #         href: lectures/26_bootstrap.Rnw
+  #      - text: "25 - Inference for Regression"
+   #       href: lectures/27_inference_for_regression.Rnw
+      #  - text: "28 - Bootstrap for Regression"
+       #   href: lectures/28_bootstrap_for_regression.Rnw
+  #      - text: "26 - Regression Diagnostics"
+   #       href: lectures/29_mlr_diagnostics.Rnw
+    - text: "Labs"
+      menu:
+        - text: "Labs"
+        - text: "Introduction to R and RStudio"
+          href: labs/intro_to_r.html
+  #      - text: "Introduction to Data"
+   #       href: labs/intro_to_data.html
+    #    - text: "Simple Linear Regression"
+     #     href: labs/simple_regression.html
+  #      - text: "Sampling Distributions"
+   #       href: "http://45.55.32.181/shiny/SamplingDist/"
+    #    - text: "Confidence Intervals"
+     #     href: labs/confidence_intervals.html
+  #      - text: "Probability"
+   #       href: labs/probability.html
+    #    - text: "Inference for Categorical Data"
+     #     href: "http://45.55.32.181/shiny/CategoricalData/"
+  #      - text: "Normal Distribution"
+   #       href: labs/normal_distribution.html
+    #    - text: "Inference for Numerical Data"
+     #     href: labs/inf_for_numerical_data.html
+  #      - text: "Multiple Regression"
+   #       href: labs/multiple_regression.html
+        - text: "---------"
+        - text: "Lab Sources"
+        - text: "Introduction to R and RStudio"
+          href: labs/intro_to_r.Rmd
+  #      - text: "Introduction to Data"
+   #       href: labs/intro_to_data.Rmd
+    #    - text: "Simple Linear Regression"
+     #     href: labs/simple_regression.Rmd
+  #      - text: "Sampling Distributions"
+   #       href: labs/sampling_distributions.Rmd
+    #    - text: "Confidence Intervals"
+     #     href: labs/confidence_intervals.Rmd
+  #      - text: "Probability"
+   #       href: labs/probability.Rmd
+    #    - text: "Inference for Categorical Data"
+     #     href: labs/inf_for_categorical_data.Rmd
+  #      - text: "Normal Distribution"
+   #       href: labs/normal_distribution.Rmd          
+    #    - text: "Inference for Numerical Data"
+     #     href: labs/inf_for_numerical_data.Rmd
+  #      - text: "Multiple Regression"
+   #       href: labs/multiple_regression.Rmd
+        - text: "---------"
+        - text: "Lab Templates"
+        - text: "Introduction to R and RStudio"
+          href: labs/student_lab0.Rmd
+        - text: "File -> New File -> R Markdown -> From Template"
+        - text: "Lab CSS"
+          href: labs/lab.css
+    - text: "Assignments"
+      menu:
+        - text: "Homework"
+        - text: "All Homework Assignments"
+          href: homework.html
+        - text: "---------"
+  #      - text: "Exams"
+   #     - text: "---------"
+        - text: "Project"
+        - text: "Instructions"
+          href: project.html
+        - text: "Schedule"
+          href: project_schedule.html
+        - text: "Proposal"
+          href: ProjectProposal.html
+        - text: "Data Appendix"
+          href: ProjectDataAppendix.html
+        - text: "Presentation"
+          href: ProjectPresentation.html
+        - text: "Project peer evaluation"
+          href: "handouts/gradesheet_s1.pdf"
+        - text: "Technical Report"
+          href: ProjectTechnicalReport.html
+  #      - text: "Sample Writeup 1"
+   #       href: SampleWriteup1.html
+    #    - text: "Sample Writeup 2"
+     #     href: SampleWriteup2.html
+        - text: "Group Dynamic"
+          href: ProjectDynamic.html
+        - text: "Advice"
+          href: project_advice.html
+output:
+  html_document:
+    theme: cerulean
+    highlight: textmate
+    css: include/beanumber.css
+    include:
+      after_body: include/after_body.html
