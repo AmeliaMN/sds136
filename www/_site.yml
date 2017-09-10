@@ -1,0 +1,21 @@
+name: "www"
+output_dir: "../docs"
+exclude: ["makefile", "gfx", "lectures/figure"]
+navbar:
+  title: "SDS 136 - Fall 2017"
+  left:
+    - text: "Syllabus"
+      icon: fa-home
+      href: index.html
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Resources"
+      menu: 
+        - text: ""
+output:
+  html_document:
+    theme: paper
+    highlight: textmate
+    css: include/smith.css
+    include:
+      after_body: include/after_body.html

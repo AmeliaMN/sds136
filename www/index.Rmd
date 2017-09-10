@@ -1,0 +1,66 @@
+---
+title: "Syllabus"
+---
+
+About the Course {#about-the-course .smith}
+----------------
+
+#### Instructor
+
+Amelia McNamara (`amcnamara@smith.edu`, McConnell 211) Student hours: Mondays from 3:00-4:30, Thursdays from 10:30-12:00, and by appointment, in McConnell 211.
+
+#### Description
+
+The world is growing increasingly reliant on collecting and analyzing information to help people make decisions. Because of this, the ability to communicate effectively about data is an important component of future job prospects across nearly all disciplines. In this course, students will learn the foundations of information visualization and sharpen their skills in communicating using data. Throughout the semester, we will explore concepts in decision-making, human perception, color theory, and storytelling as they apply to data-driven communication. Whether you're an aspiring data scientist or you just want to learn new ways of presenting information, this course will help you build a strong foundation in how to talk to people about data.
+
+**Prerequisite**: None.
+
+#### Classes
+
+Classes meet Monday and Wednesday in Stoddard G2. Your participation is an important part of the learning process. Class participation and attendance contribute 10% to your final grade.
+
+#### Academic Honor Code Statement
+
+All students, staff and faculty are bound by the Smith College Honor Code, which Smith has had since 1944.
+
+> Smith College expects all students to be honest and committed to the principles of academic and intellectual integrity in their preparation and submission of course work and examinations.
+Students and faculty at Smith are part of an academic community defined by its commitment to scholarship, which depends on scrupulous and attentive acknowledgement of all sources of information, and honest and respectful use of college resources.
+
+Cases of dishonesty, plagiarism, etc., will be reported to the Academic Honor Board.
+
+Assignments {#assignments .unnumbered}
+-----------
+
+1. Assignments [40%]: 
+
+2. Labs [30%]: Labs will primarily take place in the open-source data visualization software [Plotly](plot.ly). 
+
+3. Final Project [20%]: 
+
+4. Class participation [10%]: Active participation in class and regular attendance will comprise the remainder of your grade.
+
+
+
+Resources {#resources .unnumbered}
+---------
+
+#### Course Website and Moodle
+
+The [course website]() will be regularly updated with lecture handouts, project information, assignments, and other course resources.
+
+Course discussion will take place on [Slack](https://sds136.slack.com/signup). 
+
+Labs will be completed using [Plotly](www.plot.ly). 
+
+#### Accomodation
+
+Smith is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the Disability Services Office at the beginning of the semester. To do so, call (413) 585-2071 to arrange an appointment with Laura Rauscher, Director of Disability Services. 
+
+
+
+####  Schedule
+
+Please refer to the [day-to-day schedule](schedule.html). 
+
+#### Acknowledgement 
+Some of the materials used in this course are derived from lectures, notes, or similar courses taught elsewhere. Particular thanks to Jordan Crouser and Mark Hansen. Appropriate references will be included on all such material.
