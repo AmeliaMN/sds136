@@ -15,52 +15,41 @@ The world is growing increasingly reliant on collecting and analyzing informatio
 
 **Prerequisite**: None.
 
-#### Classes
 
-Classes meet Monday and Wednesday in Stoddard G2. Your participation is an important part of the learning process. Class participation and attendance contribute 10% to your final grade.
+Assignments {#assignments .unnumbered}
+-----------
+
+1. Assignments [40%]: Assignments will take the form of short visualization exercises and responses to course readings. Most assignments will be posted on [Slack](https://sds136.slack.com/signup). 
+
+2. Labs [30%]: Labs will primarily take place in the open-source data visualization software [Plotly](plot.ly). Students are encouraged to work in pairs during these labs.
+
+3. Final Project [20%]: The final project will see you applying what you have learned to a dataset of your choice. There will be several (graded) milestones along the way to help you prepare, and we will hold a demonstration session on the final day of class.
+
+4. Class participation [10%]: Classes meet Monday and Wednesday in Stoddard G2. Your participation is an important part of the learning process. Active participation in class and regular attendance will comprise the remainder of your grade.
 
 #### Academic Honor Code Statement
 
-All students, staff and faculty are bound by the Smith College Honor Code, which Smith has had since 1944.
+All students, staff and faculty are bound by the Smith College Honor Code, which Smith established in 1944.
 
 > Smith College expects all students to be honest and committed to the principles of academic and intellectual integrity in their preparation and submission of course work and examinations.
 Students and faculty at Smith are part of an academic community defined by its commitment to scholarship, which depends on scrupulous and attentive acknowledgement of all sources of information, and honest and respectful use of college resources.
 
 Cases of dishonesty, plagiarism, etc., will be reported to the Academic Honor Board.
 
-Assignments {#assignments .unnumbered}
------------
-
-1. Assignments [40%]: 
-
-2. Labs [30%]: Labs will primarily take place in the open-source data visualization software [Plotly](plot.ly). 
-
-3. Final Project [20%]: 
-
-4. Class participation [10%]: Active participation in class and regular attendance will comprise the remainder of your grade.
-
-
-
 Resources {#resources .unnumbered}
 ---------
 
-#### Course Website and Moodle
+#### Course website and other technology
 
-The [course website]() will be regularly updated with lecture handouts, project information, assignments, and other course resources.
-
-Course discussion will take place on [Slack](https://sds136.slack.com/signup). 
-
-Labs will be completed using [Plotly](www.plot.ly). 
+The [course website](https://smithcollege-sds.github.io/136/) will be regularly updated with lecture handouts, project information, assignments, and other course resources. Course discussion will take place on [Slack](https://sds136.slack.com/signup). Labs will be completed using [Plotly](https://plot.ly). 
 
 #### Accomodation
 
 Smith is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the Disability Services Office at the beginning of the semester. To do so, call (413) 585-2071 to arrange an appointment with Laura Rauscher, Director of Disability Services. 
 
-
-
 ####  Schedule
 
-Please refer to the [day-to-day schedule](schedule.html). 
+Please refer to the [day-to-day schedule](schedule.html) for complete details. 
 
 #### Acknowledgement 
-Some of the materials used in this course are derived from lectures, notes, or similar courses taught elsewhere. Particular thanks to Jordan Crouser and Mark Hansen. Appropriate references will be included on all such material.
+Some of the materials used in this course are derived from lectures, notes, or similar courses taught elsewhere. Appropriate references will be included on all such material. Particular thanks to Jordan Crouser and Mark Hansen for their materials and inspiration. 
