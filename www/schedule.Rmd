@@ -4,7 +4,7 @@ title: "Schedule"
 
 Date | Topic | Lab | 
 -----|----------------------|---------------------|
-9/11 | Introduction to data visualization | |
+9/11 | [Introduction to data visualization](01_CommunicatingWithData.pdf) | |
 9/13 | Visualization fundamentals pt. 1 | |
 9/18 |  | Getting started in Plotly | 
 9/20 | | |
