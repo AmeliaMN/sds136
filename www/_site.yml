@@ -11,7 +11,10 @@ navbar:
       href: schedule.html
     - text: "Resources"
       menu: 
-        - text: ""
+        - text: "Getting started with Slack"
+          href: https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users
+        - text: "Undergraduate Statistics Project Competition"
+          href: https://www.causeweb.org/usproc/USCLAP%20Competition
 output:
   html_document:
     theme: paper
