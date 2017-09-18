@@ -13,6 +13,10 @@ navbar:
       menu: 
         - text: "Getting started with Slack"
           href: https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users
+        - text: "Plotly documentation"
+          href: https://help.plot.ly/tutorials/
+        - text: "Plotly community help center"
+          href: https://community.plot.ly/
         - text: "Undergraduate Statistics Project Competition"
           href: https://www.causeweb.org/usproc/USCLAP%20Competition
 output:
