@@ -17,6 +17,7 @@ write.csv(demos, "demos.csv")
 ```
 
 ```{r}
+library(dplyr)
 library(readr)
 demos <- read_csv("demos.csv")
 demos <- demos %>% select(-c(`Summary Level`, `Geographic Component`,`State (FIPS)`, `Total Population_1`, `Total Population_2`, `Total Population_3`, `Total Population_4`, `Urban: Inside urbanized areas`, `Urban: Inside urban clusters`, `Median Age: Male Population`, `Median Age: Female Population`))

@@ -9,9 +9,10 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Amelia McNamara" />
 
 
-<title>Syllabus</title>
+<title>Data cleaning for Plotly lab 1</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -220,59 +221,78 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Syllabus</h1>
+<h1 class="title toc-ignore">Data cleaning for Plotly lab 1</h1>
+<h4 class="author"><em>Amelia McNamara</em></h4>
+<h4 class="date"><em>9/17/2017</em></h4>
 
 </div>
 
 
-<div id="about-the-course" class="section level2 smith">
-<h2>About the Course</h2>
-<div id="instructor" class="section level4">
-<h4>Instructor</h4>
-<p>Amelia McNamara (<code>amcnamara@smith.edu</code>, McConnell 211) Student hours: Mondays from 3:00-4:30, Thursdays from 10:30-12:00, and by appointment, in McConnell 211.</p>
-</div>
-<div id="description" class="section level4">
-<h4>Description</h4>
-<p>The world is growing increasingly reliant on collecting and analyzing information to help people make decisions. Because of this, the ability to communicate effectively about data is an important component of future job prospects across nearly all disciplines. In this course, students will learn the foundations of information visualization and sharpen their skills in communicating using data. Throughout the semester, we will explore concepts in decision-making, human perception, color theory, and storytelling as they apply to data-driven communication. Whether you’re an aspiring data scientist or you just want to learn new ways of presenting information, this course will help you build a strong foundation in how to talk to people about data.</p>
-<p><strong>Prerequisite</strong>: None.</p>
-</div>
-</div>
-<div id="assignments" class="section level2 unnumbered">
-<h2>Assignments</h2>
-<ol style="list-style-type: decimal">
-<li><p>Assignments [40%]: Assignments will take the form of short visualization exercises and responses to course readings. Most assignments will be posted on <a href="https://sds136.slack.com/signup">Slack</a>.</p></li>
-<li><p>Labs [30%]: Labs will primarily take place in the open-source data visualization software <a href="plot.ly">Plotly</a>. Students are encouraged to work in pairs during these labs.</p></li>
-<li><p>Final Project [20%]: The final project will see you applying what you have learned to a dataset of your choice. There will be several (graded) milestones along the way to help you prepare, and we will hold a demonstration session on the final day of class.</p></li>
-<li><p>Class participation [10%]: Classes meet Monday and Wednesday in Stoddard G2. Your participation is an important part of the learning process. Active participation in class and regular attendance will comprise the remainder of your grade.</p></li>
-</ol>
-<div id="academic-honor-code-statement" class="section level4">
-<h4>Academic Honor Code Statement</h4>
-<p>All students, staff and faculty are bound by the Smith College Honor Code, which Smith established in 1944.</p>
-<blockquote>
-<p>Smith College expects all students to be honest and committed to the principles of academic and intellectual integrity in their preparation and submission of course work and examinations. Students and faculty at Smith are part of an academic community defined by its commitment to scholarship, which depends on scrupulous and attentive acknowledgement of all sources of information, and honest and respectful use of college resources.</p>
-</blockquote>
-<p>Cases of dishonesty, plagiarism, etc., will be reported to the Academic Honor Board.</p>
-</div>
-</div>
-<div id="resources" class="section level2 unnumbered">
-<h2>Resources</h2>
-<div id="course-website-and-other-technology" class="section level4">
-<h4>Course website and other technology</h4>
-<p>The <a href="https://smithcollege-sds.github.io/136/">course website</a> will be regularly updated with lecture handouts, project information, assignments, and other course resources. Course discussion will take place on <a href="https://sds136.slack.com/signup">Slack</a>. Labs will be completed using <a href="https://plot.ly">Plotly</a>.</p>
-</div>
-<div id="accomodation" class="section level4">
-<h4>Accomodation</h4>
-<p>Smith is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the Disability Services Office at the beginning of the semester. To do so, call (413) 585-2071 to arrange an appointment with Laura Rauscher, Director of Disability Services.</p>
-</div>
-<div id="schedule" class="section level4">
-<h4>Schedule</h4>
-<p>Please refer to the <a href="schedule.html">day-to-day schedule</a> for complete details.</p>
-</div>
-<div id="acknowledgement" class="section level4">
-<h4>Acknowledgement</h4>
-<p>Some of the materials used in this course are derived from lectures, notes, or similar courses taught elsewhere. Appropriate references will be included on all such material. Particular thanks to Jordan Crouser and Mark Hansen for their materials and inspiration.</p>
-</div>
-</div>
+<pre class="r"><code>library(readr)
+demos &lt;- read_csv(&quot;~/Downloads/R11460403_SL040.csv&quot;)
+demos &lt;- demos[-1,]
+write.csv(demos, &quot;demos.csv&quot;)</code></pre>
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## Warning: package &#39;dplyr&#39; was built under R version 3.4.1</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>library(readr)
+demos &lt;- read_csv(&quot;demos.csv&quot;)</code></pre>
+<pre><code>## Warning: Missing column names filled in: &#39;X1&#39; [1]</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   .default = col_integer(),
+##   `Area Name-Legal/Statistical Area Description` = col_character(),
+##   `Qualifying Name` = col_character(),
+##   `Area (Land)` = col_double(),
+##   `Area (Water)` = col_double(),
+##   `Summary Level` = col_character(),
+##   `Geographic Component` = col_character(),
+##   FIPS = col_character(),
+##   `State (FIPS)` = col_character(),
+##   `Median Age` = col_double(),
+##   `Median Age: Male Population` = col_double(),
+##   `Median Age: Female Population` = col_double(),
+##   `Average Household Size` = col_double()
+## )</code></pre>
+<pre><code>## See spec(...) for full column specifications.</code></pre>
+<pre class="r"><code>demos &lt;- demos %&gt;% select(-c(`Summary Level`, `Geographic Component`,`State (FIPS)`, `Total Population_1`, `Total Population_2`, `Total Population_3`, `Total Population_4`, `Urban: Inside urbanized areas`, `Urban: Inside urban clusters`, `Median Age: Male Population`, `Median Age: Female Population`))</code></pre>
+<pre class="r"><code>demos &lt;- demos %&gt;% 
+  mutate(PercentUrban = Urban/`Total Population`,
+         PercentFemale = Male/`Total Population`,
+         Children = `Under 5 years` + `10 to 14 years` + `15 to 17 years`, 
+         PercentChildren = Children/`Total Population`, 
+         RetirementAge = `65 to 74 years`+`75 to 84 years`+`85 years and over`, 
+         PercentRetirementAge = RetirementAge/`Total Population`)
+
+demos &lt;- demos %&gt;%
+  select(-c(`Under 5 years`, `5 to 9 years`, `10 to 14 years`, `15 to 17 years`, `18 to 24 years`, `25 to 34 years`, `35 to 44 years`, `45 to 54 years`, `55 to 64 years`, `65 to 74 years`, `75 to 84 years`, `85 years and over`))
+
+demos &lt;- demos %&gt;%
+  mutate(PercentWhite = `White Alone`/`Total Population`, 
+         PercentBlack = `Black or African American Alone`/`Total Population`,
+         PercentNativeAmerican = `American Indian and Alaska Native Alone`/`Total Population`, 
+         PercentAsian = `Asian Alone`/`Total Population`, 
+         PercentNativeHawaii = `Native Hawaiian and Other Pacific Islander Alone`/`Total Population`, 
+         PercentOther = `Some other race Alone`/`Total Population`, PercentTwoOrMoreRaces = `Two or more races`/`Total Population`)
+
+
+demos &lt;- demos %&gt;%
+  select(-c(`White Alone`, `Black or African American Alone`, `American Indian and Alaska Native Alone`, `Asian Alone`, `Native Hawaiian and Other Pacific Islander Alone`, `Some other race Alone`, `Two or more races`))
+
+demos &lt;- demos %&gt;%
+  select(-`Area Name-Legal/Statistical Area Description`, -X1)
+
+demos &lt;- demos %&gt;% rename(State=`Qualifying Name`)
+
+demos &lt;- demos %&gt;% mutate(StateAbrv = state.abb[match(State, state.name)])</code></pre>
+<pre class="r"><code>write_csv(demos, &quot;demos_cleaned.csv&quot;)</code></pre>
 
     <div id="footer">
       <div class="container">
