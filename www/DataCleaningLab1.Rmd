@@ -1,0 +1,61 @@
+---
+title: "Data cleaning for Plotly lab 1"
+author: "Amelia McNamara"
+date: "9/17/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, eval=FALSE}
+library(readr)
+demos <- read_csv("~/Downloads/R11460403_SL040.csv")
+demos <- demos[-1,]
+write.csv(demos, "demos.csv")
+```
+
+```{r}
+library(readr)
+demos <- read_csv("demos.csv")
+demos <- demos %>% select(-c(`Summary Level`, `Geographic Component`,`State (FIPS)`, `Total Population_1`, `Total Population_2`, `Total Population_3`, `Total Population_4`, `Urban: Inside urbanized areas`, `Urban: Inside urban clusters`, `Median Age: Male Population`, `Median Age: Female Population`))
+
+
+```
+
+```{r}
+demos <- demos %>% 
+  mutate(PercentUrban = Urban/`Total Population`,
+         PercentFemale = Male/`Total Population`,
+         Children = `Under 5 years` + `10 to 14 years` + `15 to 17 years`, 
+         PercentChildren = Children/`Total Population`, 
+         RetirementAge = `65 to 74 years`+`75 to 84 years`+`85 years and over`, 
+         PercentRetirementAge = RetirementAge/`Total Population`)
+
+demos <- demos %>%
+  select(-c(`Under 5 years`, `5 to 9 years`, `10 to 14 years`, `15 to 17 years`, `18 to 24 years`, `25 to 34 years`, `35 to 44 years`, `45 to 54 years`, `55 to 64 years`, `65 to 74 years`, `75 to 84 years`, `85 years and over`))
+
+demos <- demos %>%
+  mutate(PercentWhite = `White Alone`/`Total Population`, 
+         PercentBlack = `Black or African American Alone`/`Total Population`,
+         PercentNativeAmerican = `American Indian and Alaska Native Alone`/`Total Population`, 
+         PercentAsian = `Asian Alone`/`Total Population`, 
+         PercentNativeHawaii = `Native Hawaiian and Other Pacific Islander Alone`/`Total Population`, 
+         PercentOther = `Some other race Alone`/`Total Population`, PercentTwoOrMoreRaces = `Two or more races`/`Total Population`)
+
+
+demos <- demos %>%
+  select(-c(`White Alone`, `Black or African American Alone`, `American Indian and Alaska Native Alone`, `Asian Alone`, `Native Hawaiian and Other Pacific Islander Alone`, `Some other race Alone`, `Two or more races`))
+
+demos <- demos %>%
+  select(-`Area Name-Legal/Statistical Area Description`, -X1)
+
+demos <- demos %>% rename(State=`Qualifying Name`)
+
+demos <- demos %>% mutate(StateAbrv = state.abb[match(State, state.name)])
+```
+
+```{r}
+write_csv(demos, "demos_cleaned.csv")
+```
