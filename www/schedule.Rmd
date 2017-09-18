@@ -6,7 +6,7 @@ Date | Topic | Lab |
 -----|----------------------|---------------------|
 9/11 | [Introduction to data visualization](01_CommunicatingWithData.pdf) | |
 9/13 | [Visualization fundamentals pt. 1](02_VisualizationFundamentals.pdf) | |
-9/18 |  | Getting started in Plotly | 
+9/18 |  | [Getting started in Plotly](03_IntroductionToPlotly.pdf) | 
 9/20 | | |
 9/25 | Visualization fundamentals pt. 2 | | 
 9/27 | | Visualizing one variable | 
