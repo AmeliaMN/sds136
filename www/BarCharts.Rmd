@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(eval=FALSE)
 ```
 
 ## Bar chart-- doing its own aggregation
@@ -23,7 +23,9 @@ ggplot(diamonds) + geom_bar(aes(x=color, fill=color)) + theme(legend.position="n
 ```{r}
 data(precip)
 precip <- precip[-50]
+library(dplyr)
 library(tidyr)
+library(forcats)
 precip2 <- as.data.frame(precip, row.names = names(precip))
 precip2[,"City"] <- names(precip)
 precip2 <- precip2 %>%

@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8" />
+<meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -232,37 +232,10 @@ $(document).ready(function () {
 demos &lt;- read_csv(&quot;~/Downloads/R11460403_SL040.csv&quot;)
 demos &lt;- demos[-1,]
 write.csv(demos, &quot;demos.csv&quot;)</code></pre>
-<pre class="r"><code>library(dplyr)</code></pre>
-<pre><code>## Warning: package &#39;dplyr&#39; was built under R version 3.4.1</code></pre>
-<pre><code>## 
-## Attaching package: &#39;dplyr&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:stats&#39;:
-## 
-##     filter, lag</code></pre>
-<pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
-##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>library(readr)
-demos &lt;- read_csv(&quot;demos.csv&quot;)</code></pre>
-<pre><code>## Warning: Missing column names filled in: &#39;X1&#39; [1]</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   `Area Name-Legal/Statistical Area Description` = col_character(),
-##   `Qualifying Name` = col_character(),
-##   `Area (Land)` = col_double(),
-##   `Area (Water)` = col_double(),
-##   `Summary Level` = col_character(),
-##   `Geographic Component` = col_character(),
-##   FIPS = col_character(),
-##   `State (FIPS)` = col_character(),
-##   `Median Age` = col_double(),
-##   `Median Age: Male Population` = col_double(),
-##   `Median Age: Female Population` = col_double(),
-##   `Average Household Size` = col_double()
-## )</code></pre>
-<pre><code>## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>demos &lt;- demos %&gt;% select(-c(`Summary Level`, `Geographic Component`,`State (FIPS)`, `Total Population_1`, `Total Population_2`, `Total Population_3`, `Total Population_4`, `Urban: Inside urbanized areas`, `Urban: Inside urban clusters`, `Median Age: Male Population`, `Median Age: Female Population`))</code></pre>
+<pre class="r"><code>library(dplyr)
+library(readr)
+demos &lt;- read_csv(&quot;demos.csv&quot;)
+demos &lt;- demos %&gt;% select(-c(`Summary Level`, `Geographic Component`,`State (FIPS)`, `Total Population_1`, `Total Population_2`, `Total Population_3`, `Total Population_4`, `Urban: Inside urbanized areas`, `Urban: Inside urban clusters`, `Median Age: Male Population`, `Median Age: Female Population`))</code></pre>
 <pre class="r"><code>demos &lt;- demos %&gt;% 
   mutate(PercentUrban = Urban/`Total Population`,
          PercentFemale = Male/`Total Population`,
@@ -322,7 +295,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

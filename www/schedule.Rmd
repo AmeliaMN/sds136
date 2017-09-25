@@ -7,27 +7,27 @@ Date | Topic | Lab |
 9/11 | [Introduction to data visualization](01_CommunicatingWithData.pdf) | |
 9/13 | [Visualization fundamentals pt. 1](02_VisualizationFundamentals.pdf) | |
 9/18 |  | [Getting started in Plotly](03_IntroductionToPlotly.pdf) | 
-9/20 | | |
-9/25 | Visualization fundamentals pt. 2 | | 
+9/20 | **No class** | |
+9/25 | [Visualization fundamentals pt. 2](04_GestaltAndBarcharts.pdf) | | 
 9/27 | | Visualizing one variable | 
 10/2 | |  Visualizing two variables |
 10/4 | Color theory |  | 
 10/9  |  **Autumn recess**      |  |
 10/11 | Graphical perception | Mini-lab | 
 10/16 |  Design principles | Mini-lab |  
-10/18 | Visualization of higher-dimensional data | Pairs plots and parallel coordinates |
-10/23 | Artistic visualization | Hand-drawn viz |
-10/25 |  Spatial data | Maps |
-10/30 |  Visualizing uncertainty  | |
-11/1  | Narrative  | |
-11/6  | Text Data  | Text visualization |
-11/8  | Interactivity, iteration, and animation | Interactivity |
+10/18 | Artistic visualization | Hand-drawn viz |
+10/23 | Museum and special collections visit | |
+10/25 |  Museum and special collections visit | | 
+10/30 |  Visualization of higher-dimensional data | Pairs plots and parallel coordinates |
+11/1  | Spatial data | Maps |
+11/6  | Visualizing uncertainty  | |
+11/8  |  Narrative  | |
 11/13 | | **Final project workshop 1**  |
 11/15 | **Visualization in the wild presentations** | |
 11/20 | **Visualization in the wild presentations** | |
 11/22 | **Thanksgiving recess** | |
-11/27 | TBD ||
-11/29 | TBD | |
+11/27 | Text Data  | Text visualization |
+11/29 |Interactivity, iteration, and animation | Interactivity |
 12/4  | TBD | |
 12/6  | | **Final project workshop 2**  |
 12/11 | What next? ||
