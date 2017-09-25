@@ -1,0 +1,32 @@
+---
+title: "Untitled"
+author: "Amelia McNamara"
+date: "9/24/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Bar chart-- doing its own aggregation
+
+```{r}
+library(ggplot2)
+data(diamonds)
+ggplot(diamonds) + geom_bar(aes(x=color, fill=color)) + theme(legend.position="none")
+```
+
+
+## Bar chart-- no aggregation necessary
+
+```{r}
+data(precip)
+precip <- precip[-50]
+library(tidyr)
+precip2 <- as.data.frame(precip, row.names = names(precip))
+precip2[,"City"] <- names(precip)
+precip2 <- precip2 %>%
+mutate(City = fct_reorder(City, precip))
+ggplot(precip2) + geom_col(aes(x=City, y=precip)) + coord_flip() + ylab(label="Inches of precipitation")
+```
