@@ -9,6 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(readr)
+library(dplyr)
 en_openfoodfacts_org_products <- read_delim("~/Downloads/en.openfoodfacts.org.products.csv",
 "\t", escape_double = FALSE)
 us_food <- en_openfoodfacts_org_products %>% 
@@ -29,4 +30,8 @@ us_food_small <- us_food_small %>%
 
 us_food_small <- us_food_small %>%
   filter(energy_100g<900)
+```
+
+```{r, eval=FALSE}
+write_csv(us_food_small, "food_data.csv")
 ```
