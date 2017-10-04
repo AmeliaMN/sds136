@@ -11,7 +11,7 @@ Date | Topic | Lab |
 9/25 | [Visualization fundamentals pt. 2](04_GestaltAndBarcharts.pdf) | | 
 9/27 | | [Visualizing one variable](05_Aggregation.pdf) ([data](https://docs.google.com/a/smith.edu/spreadsheets/d/1fhMYD__IiBd6uxdF-s0NZUsb61ilLX0Tm_CqMX4eg2A/edit?usp=sharing)) | 
 10/2 | |  [Visualizing two variables](06_filtering.pdf) ([data](https://docs.google.com/a/smith.edu/spreadsheets/d/1blEcuuc_L_g_q7fYZ3w7dScxFy_4f58rreQ4NsSHJuE/edit?usp=sharing)) |
-10/4 | Color theory |  | 
+10/4 | [Color theory](07_color.pdf) |  | 
 10/9  |  **Autumn recess**      |  |
 10/11 | Graphical perception | Mini-lab | 
 10/16 |  Design principles | Mini-lab |  
