@@ -13,7 +13,7 @@ Date | Topic | Lab |
 10/2 | |  [Visualizing two variables](06_filtering.pdf) ([data](https://docs.google.com/a/smith.edu/spreadsheets/d/1blEcuuc_L_g_q7fYZ3w7dScxFy_4f58rreQ4NsSHJuE/edit?usp=sharing)) |
 10/4 | [Color theory](07_color.pdf) |  | 
 10/9  |  **Autumn recess**      |  |
-10/11 | Graphical perception | Mini-lab | 
+10/11 | [Graphical perception](08_perception.pdf) | | 
 10/16 |  Design principles | Mini-lab |  
 10/18 | Artistic visualization | Hand-drawn viz |
 10/23 | Museum and special collections visit | |
