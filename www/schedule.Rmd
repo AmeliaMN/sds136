@@ -14,7 +14,7 @@ Date | Topic | Lab |
 10/4 | [Color theory](07_color.pdf) |  | 
 10/9  |  **Autumn recess**      |  |
 10/11 | [Graphical perception](08_perception.pdf) | | 
-10/16 |  Design principles | Mini-lab |  
+10/16 |  [Design principles](09_principles.pdf) | Mini-lab |  
 10/18 | Artistic visualization | Hand-drawn viz |
 10/23 | Museum and special collections visit | |
 10/25 |  Museum and special collections visit | | 
