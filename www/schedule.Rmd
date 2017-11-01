@@ -19,7 +19,7 @@ Date | Topic | Lab |
 10/23 | Museum and special collections visit | |
 10/25 |  Museum and special collections visit | | 
 10/30 |  [Visualization of higher-dimensional data](11_multidimensional.pdf) | Pairs plots and 3D viz ([data](college.csv)) |
-11/1  | Spatial data | Maps |
+11/1  | [Spatial data](12_spatial.pdf) | Maps ([data](who.csv)) |
 11/6  | Visualizing uncertainty  | |
 11/8  |  Narrative  | |
 11/13 | | **Final project workshop 1**  |
