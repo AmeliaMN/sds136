@@ -1,0 +1,64 @@
+---
+title: "Assignments"
+---
+
+#### Reading responses
+
+For your reading responses, you are broken into three groups:
+
+- Group A: last names starting with A-G
+- Group B: last names starting with H-L
+- Group C: last names starting with M-Z
+
+Each week, one group starts the discussion off on Slack, by writing a response to the reading. Then, the other two groups *respond* to their colleagues' responses. Hopefully, this will facilitate some discussion. 
+
+In general, your response can contain any of the following: 
+
+- What was one thing that stood out to you? Why? 
+- Can you see a connection between the readings, either a place they agree or disagree? 
+- Was there a place where you disagreed with one of the authors? 
+- How is what they're saying different from what you've learned in other classes? 
+- Can you see a connection with another discipline or class you are in? 
+- What questions do you still have?
+- Find a visualization that relates to the reading and discuss that in the  context of the reading. 
+
+#### Readings
+
+- The Functional Art, Alberto Cairo. (Introduction)
+- Visualize This, Nathan Yau. (Introduction and chapter 1)
+
+- Data Points, Nathan Yau. (Chapter 3)
+- [Computational Information Design](http://benfry.com/phd/), Ben Fry (Chapters 1 and 2)
+
+- How to Lie with Statistics, Darrell Huff (Chapters 5 and 10)
+- [40 Years of Boxplots](http://vita.had.co.nz/papers/boxplots.html), Hadley Wickham, Lisa Stryjewski.
+- [A brief history of the mosaic display](http://www.tandfonline.com/doi/abs/10.1198/106186002317375631), Michael Friendly 
+
+- Elements of Graphing Data (Chapters 2 and 4), William Cleveland. 
+- [Modern Crowdsoursing and Cleveland-McGill's graphical hierarchy](http://visiphilia.org/2016/08/03/CM-hierarchy), Di Cook
+
+- The Visual Display of Quantitative Information, Edward Tufte (Chapters 4 and 6)
+
+- Dear Data, Giorgia Lupi and Stefanie Posavec (selections)
+- Raw Data: Infographic Designers' Sketchbooks, Steven Heller (selections)
+- Eyeo: Converge to Inspire (selections)
+- Processing, Casey Reas and Ben Fry (selections)
+
+- How to Lie with Maps, Mark Monmonier (Chapter 3)
+- Critical Questions for Big Data, danah boyd and Kate Crawford
+- [Hypothetical Outcome Plots: Experiencing the Uncertain](https://medium.com/hci-design-at-uw/hypothetical-outcomes-plots-experiencing-the-uncertain-b9ea60d7c740), UW Interactive Data Lab
+
+#### Visualization in the wild
+
+For your visualization in the wild presentations, you are going to find a visualization that you like from an outside source. You may want to look at the following websites:
+
+- [flowingdata](http://flowingdata.com/)
+- [The Upshot](https://www.nytimes.com/section/upshot)
+- [fivethirtyeight](http://fivethirtyeight.com/)
+- [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
+- [The Functional Art](http://www.thefunctionalart.com/)
+- [stamen maps](https://hi.stamen.com/)
+
+You will do a 2-minute presentation on your visualization, in front of the whole class. In your presentation, you will need to describe what the visualization shows, and highlight one design decision you like. This is a very short presentation, so I want it to be low-stakes. 
+
+#### Final project
