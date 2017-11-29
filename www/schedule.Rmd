@@ -27,7 +27,7 @@ Date | Topic | Lab |
 11/20 | **Visualization in the wild presentations** | |
 11/22 | **Thanksgiving recess** | |
 11/27 | [Text Data](14_text.pdf)  | Text visualization |
-11/29 |Interactivity, iteration, and animation | Interactivity |
+11/29 |[Interactivity, iteration, and animation](15_interactivity.pdf) | Interactivity |
 12/4  | TBD | |
 12/6  | | **Final project workshop 2**  |
 12/11 | What next? ||

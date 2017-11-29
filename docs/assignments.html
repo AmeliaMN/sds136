@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8" />
+<meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,12 +31,10 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlightingOnLoad(); }, 0);
-  }
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
 }
 </script>
 
@@ -287,22 +285,6 @@ $(document).ready(function () {
 </div>
 <div id="final-project" class="section level4">
 <h4>Final project</h4>
-<p>For the final project, you will find and visualize some data. You can use any data you want (including data you collect about yourself) and any visualization media (plotly, hand-drawn, Tableau, R, d3, etc.). You will present a visualization of your data (one or more visualizations) and turn in a short (3-page) writeup of your design decisions and visualization process.</p>
-<p>Below is a list of places to get started looking for datA, but this list should be considered grossly non-exhaustive:</p>
-<ul>
-<li><p>Data is Plural <a href="https://tinyletter.com/data-is-plural">tinyletter</a> and associated <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">spreadsheet</a></p></li>
-<li><p>FiveThirtyEight <a href="https://github.com/fivethirtyeight/data">data archive</a></p></li>
-<li><p><a href="https://www.data.gov/">Data.gov</a> 186,000+ datasets!</p></li>
-<li><p><a href="http://www.socialexplorer.com/">Social Explorer</a> is a great interface to Census and American Community Survey data (much more user-friendly than the official government sites). Smith has a site license, but you may need to create an account.</p></li>
-<li><p><a href="http://libguides.smith.edu/az.php?a=g">Gallup Analytics</a> (available through the library databases)</p></li>
-<li><p><a href="http://dasl.datadesk.com/">Data and Story Library</a> (DASL). (This, and <a href="http://it.stlawu.edu/~rlock/">more</a> ideas from Robin Lock.)</p></li>
-<li><p>Jo Hardin at Pomona College has a <a href="http://research.pomona.edu/johardin/datasources/">nice list</a> of data sources on her website.</p></li>
-<li><p>U.S. <a href="http://www.bls.gov/">Bureau of Labor Statistics</a></p></li>
-<li><p>U.S. <a href="http://www.census.gov">Census Bureau</a></p></li>
-<li><p><a href="https://www.gapminder.org/data/">Gapminder</a>, data about the world.</p></li>
-<li><p>IRE and NICAR are good resources for the types of data journalists care about. For example, <a href="https://github.com/InsideEnergy/24-energy-stories-CAR16">Energy data sources</a> and <a href="http://blog.chryswu.com/2016/03/08/nicar16-slides-links-tutorials-resources/">Chrys Wu’s resource page</a>.</p></li>
-<li><p>Nathan Yau’s (old) <a href="http://flowingdata.com/2009/10/01/30-resources-to-find-the-data-you-need/">guide to finding data on the internet</a></p></li>
-</ul>
 </div>
 
     <div id="footer">
@@ -333,7 +315,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
