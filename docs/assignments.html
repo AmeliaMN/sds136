@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -285,6 +287,36 @@ $(document).ready(function () {
 </div>
 <div id="final-project" class="section level4">
 <h4>Final project</h4>
+<div id="idea" class="section level5">
+<h5>Idea</h5>
+<p>The first milestone for your final project is a short (several sentence) description of your concept for the final project. It should include:</p>
+<ul>
+<li>your name, and the name of any group members (if applicable)</li>
+<li>the data you are planning to visualize, and the question(s) you will try to answer</li>
+<li>the tool you are planning to use (Plotly, hand-drawn, voyant-tools.org, R, etc)</li>
+<li>the visual representation(s) you are thinking of using (e.g. map, word cloud, bar chart, scatterplot, etc)</li>
+</ul>
+<p>You should submit this information as a PDF document <a href="https://moodle.smith.edu/mod/assign/view.php?id=266953">on moodle</a>. (If you are using Microsoft Word to produce the document, please Print To or Export To PDF.)</p>
+</div>
+<div id="poster-presentation" class="section level5">
+<h5>“Poster” presentation</h5>
+<p>During the poster session, you will present your visualization(s). If they are interactive (like Plotly) you may want to demo using your laptop. If you have produced something static, particularly if it was done by hand, you may have a physical artifact. This can be a paper printout or other physical item. You do <em>not</em> have to produce a standard “poster” for the demo session.</p>
+</div>
+<div id="writeup" class="section level5">
+<h5>Writeup</h5>
+<p>By the last day of the semester (Dec 22), you will turn in a final version of your visualization(s), along with a writeup about the design decisions you made. This may include decisions about:</p>
+<ul>
+<li>encoding</li>
+<li>color</li>
+<li>plot types</li>
+<li>data filtering/aggregation/pivot tables</li>
+<li>interactive elements</li>
+<li>etc</li>
+</ul>
+<p>I would like these decisions to be backed up with citations to relevant literature. You can draw on the material we read throughout the semester, as well as material referred to in the lectures.</p>
+<p>You should also explain where your data came from, and any data processing you have completed. If you did data processing in something reproducible (like R) you could submit code as part of this documentation. If you did work in spreadsheets, please describe in words what you did. For example, “I filtered the data to only include 2009, and then I used a pivot table to summarize by group before importing into Plotly.”</p>
+<p>Your writeup should be at least 3 pages long, and include a bibliography. It is okay (even encouraged!) to include screenshots of your work or of inspirational materials, but those images will not count toward the page length.</p>
+</div>
 </div>
 
     <div id="footer">
@@ -315,7 +347,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
