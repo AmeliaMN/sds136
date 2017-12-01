@@ -63,6 +63,35 @@ You will do a 2-minute presentation on your visualization, in front of the whole
 
 #### Final project
 
+##### Places to look for data
+
+For the final project, you will need to find (or generate) some data. Below is a list of places to get started looking for data. Remember, you may need to do some data manipulation in order to get the data into a form that works for your project (e.g. using pivot tables in Google Sheets) and you can ask me or the Data Assistants for assistance. 
+
+- Data is Plural [tinyletter](https://tinyletter.com/data-is-plural) and associated [spreadsheet](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
+
+- FiveThirtyEight [data archive](https://github.com/fivethirtyeight/data)
+
+- [Data.gov](https://www.data.gov/) 186,000+ datasets!
+
+- [Social Explorer](http://www.socialexplorer.com/) is a great interface to Census and American Community Survey data (much more user-friendly than the official government sites). Smith has a site license, but you may need to create an account. 
+
+- [Gallup Analytics](http://libguides.smith.edu/az.php?a=g) (available through the library databases)
+
+- [Data and Story Library](http://dasl.datadesk.com/) (DASL). (This, and [more](http://it.stlawu.edu/~rlock/) ideas from Robin Lock.)
+
+- Jo Hardin at Pomona College has a [nice list](http://research.pomona.edu/johardin/datasources/) of data sources on her website. 
+
+-   U.S. [Bureau of Labor Statistics](http://www.bls.gov/) 
+
+-   U.S. [Census Bureau](http://www.census.gov)
+
+-   [Gapminder](https://www.gapminder.org/data/), data about the world. 
+
+- IRE and NICAR are good resources for the types of data journalists care about. For example, [Energy data sources](https://github.com/InsideEnergy/24-energy-stories-CAR16) and [Chrys Wu's resource page](http://blog.chryswu.com/2016/03/08/nicar16-slides-links-tutorials-resources/). 
+
+-   Nathan Yau's (old) [guide to finding data on the internet](http://flowingdata.com/2009/10/01/30-resources-to-find-the-data-you-need/)
+
+
 ##### Idea
 The first milestone for your final project is a short (several sentence) description of your concept for the final project. It should include:
 
