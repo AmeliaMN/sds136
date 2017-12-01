@@ -21,6 +21,8 @@ navbar:
           href: https://community.plot.ly/
         - text: "Undergraduate Statistics Project Competition"
           href: https://www.causeweb.org/usproc/USCLAP%20Competition
+        - text: "Data Assistants"
+          href: https://www.smith.edu/qlc/tutoring.html#D1
 output:
   html_document:
     theme: paper
