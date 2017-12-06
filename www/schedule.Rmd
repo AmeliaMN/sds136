@@ -29,6 +29,6 @@ Date | Topic | Lab |
 11/27 | [Text Data](14_text.pdf)  | Text visualization |
 11/29 |[Interactivity, iteration, and animation](15_interactivity.pdf) | Interactivity |
 12/4  | [Weird visualizations](16_misc.pdf) |  |
-12/6  | | **Final project workshop 2**  |
+12/6  | **Final project workshop 2** |  [R](static/IntroToR_slides.html), (data: [atus](static/atus.csv), [PartD](static/PartD_Providers.csv)) |
 12/11 | What next? ||
 12/13 | **Project Presentations** ||
