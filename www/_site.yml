@@ -1,5 +1,4 @@
 name: "www"
-output_dir: "../docs"
 exclude: ["makefile", "gfx", "lectures/figure"]
 navbar:
   title: "SDS 136 - Fall 2017"
