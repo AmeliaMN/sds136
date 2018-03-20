@@ -7,7 +7,7 @@ output:
     toc_float: true
 ---
 
-#### Reading responses
+### Reading responses
 
 For your reading responses, you are broken into three groups:
 
@@ -27,7 +27,7 @@ In general, your response can contain any of the following:
 - What questions do you still have?
 - Find a visualization that relates to the reading and discuss that in the  context of the reading. 
 
-#### Readings
+### Readings
 
 - The Functional Art, Alberto Cairo. (Introduction)
 - Visualize This, Nathan Yau. (Introduction and chapter 1)
@@ -53,7 +53,7 @@ In general, your response can contain any of the following:
 - Critical Questions for Big Data, danah boyd and Kate Crawford
 - [Hypothetical Outcome Plots: Experiencing the Uncertain](https://medium.com/hci-design-at-uw/hypothetical-outcomes-plots-experiencing-the-uncertain-b9ea60d7c740), UW Interactive Data Lab
 
-#### Visualization in the wild
+### Visualization in the wild
 
 For your visualization in the wild presentations, you are going to find a visualization that you like from an outside source. You may want to look at the following websites:
 
@@ -66,9 +66,9 @@ For your visualization in the wild presentations, you are going to find a visual
 
 You will do a 2-minute presentation on your visualization, in front of the whole class. In your presentation, you will need to describe what the visualization shows, and highlight one design decision you like. This is a very short presentation, so I want it to be low-stakes. 
 
-#### Final project
+### Final project
 
-##### Places to look for data
+#### Places to look for data
 
 For the final project, you will need to find (or generate) some data. Below is a list of places to get started looking for data. Remember, you may need to do some data manipulation in order to get the data into a form that works for your project (e.g. using pivot tables in Google Sheets) and you can ask me or the Data Assistants for assistance. 
 
@@ -97,7 +97,7 @@ For the final project, you will need to find (or generate) some data. Below is a
 -   Nathan Yau's (old) [guide to finding data on the internet](http://flowingdata.com/2009/10/01/30-resources-to-find-the-data-you-need/)
 
 
-##### Idea
+#### Idea
 The first milestone for your final project is a short (several sentence) description of your concept for the final project. It should include:
 
 - your name, and the name of any group members (if applicable)
@@ -107,11 +107,11 @@ The first milestone for your final project is a short (several sentence) descrip
 
 You should submit this information as a PDF document [on moodle](https://moodle.smith.edu/mod/assign/view.php?id=266953). (If you are using Microsoft Word to produce the document, please Print To or Export To PDF.)
 
-##### "Poster" presentation
+#### "Poster" presentation
 
 During the poster session, you will present your visualization(s). If they are interactive (like Plotly) you may want to demo using your laptop. If you have produced something static, particularly if it was done by hand, you may have a physical artifact. This can be a paper printout or other physical item. You do *not* have to produce a standard "poster" for the demo session. 
 
-##### Writeup
+#### Writeup
 
 By the last day of the semester (Dec 22), you will turn in a final version of your visualization(s), along with a writeup about the design decisions you made. This may include decisions about:
 
