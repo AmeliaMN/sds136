@@ -37,6 +37,7 @@ ol > li .test {
 img {
   display: block;
   margin: auto;
+  display: inline;
 }
 
 .past {
