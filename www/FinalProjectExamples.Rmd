@@ -11,7 +11,7 @@ When I taught this class in Fall 2017, I left our final project assignment relat
 
 Please note, I asked students if it was okay to share these projects, and got the okay from all students (including all members of group projects). I've decided to share projects without names for consistency, since several students asked to have their work shared anonymously. If you would like attribution information for graphics, please feel free to ask me. A few student authors were okay with having their names shared. 
 
-### The Race for Congress 2018 - Geography, Gender, and the Generic Ballot
+### The Race for Congress 2018
 
 This project used data about the generic congressional ballot vote to show party support over time. It was inspired by a piece in FiveThirtyEight, [Are Democrats/Republicans Winning The Race For Congress?](https://projects.fivethirtyeight.com/congress-generic-ballot-polls/). The FiveThirtyEight piece was national, but this student wanted to see the data broken down by region and gender. So, the student found data from RealClearPolitics and Huffington Post, and parsed and filtered it to the appropriate data. For their final project, they created a Plotly dashboard with a "memo" to the reader about the overall story. For anonymity, I've forked the project to my plotly account. See [the memo and interactive visualizations here](https://plot.ly/dashboard/AmeliaMN:24/#/). In case that link breaks, here are a few static graphics from the piece.
 
@@ -55,11 +55,12 @@ The students also created two choropleth maps, one of earthquake precuations and
 
 ### Mapping Portland's Public Art
 
-This student used data from "a CSV file from CivicApps (a collaborative website from local Metro area governments and Oregon State University’s Open Source Lab), and a search engine on the Regional Art and Cultural Council website." They used R to do data wrangling, and then created an interactive map of public art in Portland. The map uses the `leaflet` library. An interactive version of this map is [hosted on this site](publicart_anon.html), but it seems like the base map may not be working (my fault, not the student's). Again, here are some static graphics that capture the project.
+This student used data from "a CSV file from CivicApps (a collaborative website from local Metro area governments and Oregon State University’s Open Source Lab), and a search engine on the Regional Art and Cultural Council website." They used R to do data wrangling, and then created an interactive map of public art in Portland. The map uses the `leaflet` library. An interactive version of this map is [hosted on this site](publicart_anon.html). Again, here are some static graphics that capture the project.
 
 ![Figure 1. Screenshots of interactive map of public art](img/publicart1.png)
 
 ![Figure 2. Public art by media type](img/publicart2.png)
+
 ### Examining Smith College Athletics 
 
 This group project by four Smith student-athletes examined the academic work of athletes at Smith. The students surveyed their fellow student athletes, and received 103 survey responses. They created hand-drawn visualizations to display their results. 
